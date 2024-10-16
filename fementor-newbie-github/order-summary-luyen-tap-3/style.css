@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --color: hsl(225, 100%, 94%);
+  --color: hsl(245, 75%, 52%);
+  --color: hsl(225, 100%, 98%);
+  --color: hsl(224, 23%, 55%);
+  --color: hsl(223, 47%, 23%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.text-content {
+  padding: 7%;
+}
+.container {
+  position: absolute;
+  max-width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.text-header {
+  color: black;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.text-paragrap {
+  color: hsl(224, 23%, 55%);
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.box-1 {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4%;
+  margin-bottom: 25px;
+}
+
+.text-box-left {
+  display: flex;
+  margin-left: 8px;
+}
+
+.text-left {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.text-left h1 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+.text-left p {
+  color: hsl(224, 23%, 55%);
+}
+
+.box-1 a {
+  margin-right: 5px;
+  color: blue;
+  font-weight: 900;
+}
+
+.box-1 a:hover {
+  color: aquamarine;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.proceed-btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  font-weight: 900;
+  border-radius: 15px;
+  padding: 3%;
+  margin: 0 5px;
+  margin-bottom: 25px;
+}
+
+.proceed-btn:hover {
+  background-color: aquamarine;
+}
+
+.cancel-btn {
+  text-decoration: none;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 15px;
+  display: block;
+}
+
+.cancel-btn:hover {
+  color: aquamarine;
+}
