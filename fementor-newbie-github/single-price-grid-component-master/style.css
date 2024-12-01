@@ -14,113 +14,115 @@
 }
 
 body {
-  font-family: "Lexend Deca", serif;
-  background-color: hsl(216, 21%, 91%);
-  min-height: 100vh;
+  background-color: hsl(204, 43%, 93%);
   display: flex;
   align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: "Lexend Deca", serif;
 }
 
 .container {
-  max-width: 700px;
-  margin: 0 auto;
-  border-radius: 10px;
+  max-width: 650px;
+  border-radius: 8px;
   overflow: hidden;
 }
 
 .content-1 {
-  background-color: #fff;
-  padding: 20px;
-  padding-bottom: 30px;
+  background-color: hsla(0, 0%, 100%, 0.938);
+  padding: 40px 0 40px 30px;
 }
 
 .content-1 h1 {
   font-size: 20px;
-  color: hsl(179, 74%, 35%);
-  font-weight: 600;
-  padding: 20px 0;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  padding-bottom: 25px;
 }
 
 .content-1 span {
-  color: hsl(71, 69%, 46%);
+  color: hsl(71, 97%, 48%);
+  font-size: 16px;
   margin-bottom: 10px;
+  display: block;
 }
 
 .content-1 ul {
   color: hsl(218, 22%, 67%);
-  margin: 10px 0;
   font-size: 15px;
+  padding-top: 5px;
 }
-
 .content-2 {
-  display: flex;
-  /* text-align: left; */
-  /* align-items: baseline; */
-  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "aa dd"
+    "bb cc";
 }
 
 .content-left {
-  background-color: hsl(179, 74%, 35%);
-  /* width: calc(max-width/2); */
-  padding: 15px;
-  width: 50%;
-  /* text-align: center; */
-  padding-left: 30px;
+  grid-area: bb;
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
 }
 
 .content-left h1 {
   font-size: 16px;
-  color: hsl(216, 21%, 91%);
-  padding: 15px 0;
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  padding-bottom: 15px;
 }
 
 .content-left h2 {
   color: hsl(204, 43%, 93%);
-  font-weight: 400;
   display: flex;
   align-items: center;
-}
-
-.content-left span {
-  font-size: 16px;
-  color: hsl(213, 13%, 83%);
-  font-weight: 200;
-  margin-left: 5px;
+  font-weight: 350;
+  /* margin-right: 10px; */
+  font-size: 30px;
+  padding-bottom: 12px;
 }
 
 .content-left p {
-  color: hsl(204, 43%, 91%);
-  font-size: 15px;
+  color: hsl(204, 43%, 93%);
   font-weight: 300;
-  padding-top: 15px;
-  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.content-left span {
+  color: hsl(220, 37%, 97%);
+  font-weight: 100;
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 .content-left a {
   text-decoration: none;
-  color: hsl(204, 43%, 93%);
+  color: hsl(220, 37%, 97%);
   display: flex;
   justify-content: center;
+  margin-top: 30px;
+  padding: 18px;
   background-color: hsl(71, 73%, 54%);
-  margin-right: 22px;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 30px;
+  border-radius: 10px;
 }
+
 .content-right {
-  width: 50%;
-  background-color: hsl(179, 62%, 43%);
-  padding-left: 35px;
+  grid-area: cc;
+  background-color: hsl(180, 57%, 57%);
+  padding: 30px;
 }
 
 .content-right h1 {
-  font-size: 16px;
-  color: hsl(216, 21%, 91%);
-  padding: 30px 0;
+  font-size: 17px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  padding-bottom: 15px;
 }
 
 .content-right ul {
-  color: hsl(204, 43%, 91%);
+  color: hsl(200, 4%, 86%);
   font-weight: 200;
   font-size: 15px;
+  padding: 2px;
 }

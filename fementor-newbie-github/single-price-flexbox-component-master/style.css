@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", serif;
+  background-color: hsl(216, 21%, 91%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content-1 {
+  background-color: #fff;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.content-1 h1 {
+  font-size: 20px;
+  color: hsl(179, 74%, 35%);
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.content-1 span {
+  color: hsl(71, 69%, 46%);
+  margin-bottom: 10px;
+}
+
+.content-1 ul {
+  color: hsl(218, 22%, 67%);
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.content-2 {
+  display: flex;
+  /* text-align: left; */
+  /* align-items: baseline; */
+  width: 100%;
+}
+
+.content-left {
+  background-color: hsl(179, 74%, 35%);
+  /* width: calc(max-width/2); */
+  padding: 15px;
+  width: 50%;
+  /* text-align: center; */
+  padding-left: 30px;
+}
+
+.content-left h1 {
+  font-size: 16px;
+  color: hsl(216, 21%, 91%);
+  padding: 15px 0;
+}
+
+.content-left h2 {
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.content-left span {
+  font-size: 16px;
+  color: hsl(213, 13%, 83%);
+  font-weight: 200;
+  margin-left: 5px;
+}
+
+.content-left p {
+  color: hsl(204, 43%, 91%);
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+.content-left a {
+  text-decoration: none;
+  color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  background-color: hsl(71, 73%, 54%);
+  margin-right: 22px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.content-right {
+  width: 50%;
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 35px;
+}
+
+.content-right h1 {
+  font-size: 16px;
+  color: hsl(216, 21%, 91%);
+  padding: 30px 0;
+}
+
+.content-right ul {
+  color: hsl(204, 43%, 91%);
+  font-weight: 200;
+  font-size: 15px;
+}
