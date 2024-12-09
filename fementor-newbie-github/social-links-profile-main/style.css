@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: "Inter", sans-serif; */
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+
+  --Whit-: hsl(0, 0%, 100%);
+
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.box {
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 40px;
+}
+.img {
+  padding: 30px 20px 20px 20px;
+}
+.img img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+
+.header h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.header p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+
+.flex {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 700;
+}
+
+.flex div {
+  width: 300px;
+  height: 35px;
+  background-color: hsl(0, 0%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-decoration: none; */
+  border-radius: 6px;
+}
+
+.flex div:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+}
+
+.flex div a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.flex div:hover a {
+  color: hsl(0, 0%, 8%);
+}
